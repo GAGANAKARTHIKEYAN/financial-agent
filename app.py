@@ -9,7 +9,7 @@ from dotenv import load_dotenv
 # Load Environment
 # =========================
 load_dotenv()
-EXCHANGE_API_KEY = os.getenv("EXCHANGE_API_KEY")
+EEXCHANGE_API_KEY = os.getenv("EXCHANGE_API_KEY")
 
 # =========================
 # Major Stock Index Mapping
@@ -145,3 +145,4 @@ if st.button("Get Financial Details") and country_input:
         embed_url,
         height=500
     )
+
